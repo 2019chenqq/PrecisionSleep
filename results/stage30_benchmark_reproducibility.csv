@@ -1,0 +1,2 @@
+subject,tree_count,single_epoch_measurements,single_epoch_mean_ms,single_epoch_median_ms,single_epoch_p95_ms,single_epoch_std_ms,single_epoch_min_ms,single_epoch_max_ms,batch_rounds,batch_mean_sec,batch_median_sec,batch_p95_sec,batch_std_sec
+SC402,150,1000,5.623510000077658,5.520999999134801,6.330219997835229,0.34181271595488,5.199199993512593,8.25809999514604,10,0.01943781000081799,0.01927705000343849,0.02093810000187659,0.0010003224792579598
