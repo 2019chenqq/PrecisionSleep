@@ -23,3 +23,12 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.log
+
+# Generated result images
+results/*.png
+
+# Trained model artifacts
+results/*.joblib
+
+results/stage25_demo_metrics_SC402.csv
+results/stage26_benchmark_SC402.csv
