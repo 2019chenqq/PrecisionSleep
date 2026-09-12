@@ -1,0 +1,2 @@
+mean_baseline_loso_macro_f1,mean_calibrated_loso_macro_f1,mean_macro_f1_delta,mean_baseline_n1_f1,mean_calibrated_n1_f1,mean_n1_f1_delta,pooled_baseline_macro_f1,pooled_calibrated_macro_f1,changed_epoch_count,changed_epoch_percent
+0.6763036424812469,0.6689158357608793,-0.00738780672036754,0.3210007778208972,0.33828949818925746,0.017288720368360266,0.6687339740578669,0.6702383277321149,264,3.2492307692307696

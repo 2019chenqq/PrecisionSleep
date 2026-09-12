@@ -1,0 +1,2 @@
+base_feature_count,derived_feature_count,augmented_feature_count,base_mean_loso_macro_f1,augmented_mean_loso_macro_f1,mean_macro_f1_delta,base_pooled_macro_f1,augmented_pooled_macro_f1,pooled_macro_f1_delta,base_pooled_n1_f1,augmented_pooled_n1_f1,n1_f1_delta
+45,60,105,0.6901883450946373,0.6830472855060489,-0.007141059588588461,0.6877909350311118,0.6839145141819587,-0.0038764208491530727,0.38552540013917885,0.3739495798319328,-0.011575820307246076

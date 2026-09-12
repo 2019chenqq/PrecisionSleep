@@ -1,0 +1,29 @@
+{
+  "validation": {
+    "protocol": "nested LOSO",
+    "mean_subject_macro_f1": 0.6901883450946373,
+    "pooled_macro_f1": 0.6877909350311118,
+    "accuracy": 0.7689846153846154,
+    "balanced_accuracy": 0.6934837619330929,
+    "pooled_n1_f1": 0.3855254001391788
+  },
+  "per_class_f1": {
+    "Wake": 0.7024824008892182,
+    "N1": 0.38552540013917885,
+    "N2": 0.8975528826213189,
+    "N3": 0.716890595009597,
+    "REM": 0.736503396496246
+  },
+  "deployment": {
+    "feature_count": 45,
+    "classifier": "Random Forest",
+    "tree_count": 150,
+    "decoder": "N1-preserving Viterbi",
+    "transition_weight": 0.25,
+    "n1_emission_boost": 1.2,
+    "model_size_mb": 25.446290016174316,
+    "single_epoch_mean_ms": 13.499464999476913,
+    "single_epoch_p95_ms": 16.529819986317307,
+    "viterbi_mean_ms": 38.8670133339474
+  }
+}

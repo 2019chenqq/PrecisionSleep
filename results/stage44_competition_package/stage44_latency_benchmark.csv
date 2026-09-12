@@ -1,0 +1,11 @@
+metric,value
+full_batch_mean_sec,0.1223325400002068
+full_batch_median_sec,0.12689275000593625
+full_batch_p95_sec,0.13264917000196874
+batch_per_epoch_ms,0.015056312615410067
+single_epoch_mean_ms,13.499464999476913
+single_epoch_median_ms,13.09659999969881
+single_epoch_p95_ms,16.529819986317307
+viterbi_mean_ms,38.8670133339474
+viterbi_median_ms,38.76740000850987
+viterbi_p95_ms,40.387239985284396

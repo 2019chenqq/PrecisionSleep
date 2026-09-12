@@ -1,0 +1,13 @@
+feature,selected_fold_count
+dyn_delta1_beta,5
+dyn_delta2_beta,5
+dyn_acceleration_beta,5
+dyn_delta1_alpha_theta_ratio,5
+dyn_delta1_alpha,5
+dyn_acceleration_alpha_theta_ratio,3
+dyn_delta2_alpha,3
+dyn_ratio_current_prev1_beta,2
+dyn_delta1_sigma,2
+dyn_acceleration_alpha,2
+dyn_delta2_alpha_theta_ratio,2
+dyn_acceleration_sef90,1

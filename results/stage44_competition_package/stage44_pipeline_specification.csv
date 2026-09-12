@@ -1,0 +1,9 @@
+component,specification
+Input,30-second EEG epochs with causal temporal context
+Feature set,45 canonical features
+Normalization,Training-global mean/std normalization
+Classifier,"Random Forest, 150 trees, balanced class weights"
+Temporal decoder,N1-preserving Viterbi
+Transition weight,0.25
+N1 emission boost,1.2
+Validation,Nested leave-one-subject-out cross-validation

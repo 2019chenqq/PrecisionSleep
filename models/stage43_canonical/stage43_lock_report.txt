@@ -1,0 +1,36 @@
+STAGE 43 - CANONICAL MODEL LOCK REPORT
+============================================================
+
+STATUS:
+LOCKED_CANONICAL_COMPETITION_CANDIDATE
+
+MODEL:
+RandomForestClassifier
+n_estimators = 150
+class_weight = balanced
+random_state = 42
+
+FEATURE COUNT = 45
+FEATURE SOURCE = Stage 40 original feature set
+
+DECODER:
+N1-preserving Viterbi
+transition_weight = 0.25
+N1_emission_boost = 1.2
+
+PRIMARY UNBIASED VALIDATION:
+Stage 40 nested LOSO
+Mean LOSO Macro F1 = 0.6902
+Pooled Macro F1 = 0.6878
+Pooled N1 F1 = 0.3855
+
+FIXED DEPLOYMENT PARAMETER LOSO:
+Mean Macro F1 = 0.6905
+Pooled Macro F1 = 0.6844
+Pooled N1 F1 = 0.3831
+
+IMPORTANT:
+Use Stage 40 nested LOSO metrics for competition generalization claims.
+Use Stage 43 model artifacts for the final demo deployment pipeline.
+
+MODEL SHA256 = 009f788efa31884e3969e049ae970ea5c59d1c26e6445a9b016120e5b9c66859

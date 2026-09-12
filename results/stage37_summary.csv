@@ -1,0 +1,2 @@
+best_architecture,best_mean_loso_macro_f1,best_pooled_n1_f1,macro_f1_delta_vs_baseline,n1_f1_delta_vs_baseline
+transitional_branch,0.6770152673462898,0.36995827538247567,0.000711624865042948,0.010945560348818217

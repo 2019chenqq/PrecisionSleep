@@ -1,0 +1,2 @@
+total_epochs,subject_count,raw_macro_f1,smoothed_macro_f1,weakest_stage,weakest_stage_f1,worst_subject,worst_subject_macro_f1,top_confusion_true,top_confusion_predicted,top_confusion_count,top_confusion_percent
+8125,6,0.6689922486659949,0.6687339740578669,N1,0.35901271503365745,SC400,0.6113687898955565,N3,Wake,226,11.339688911189162

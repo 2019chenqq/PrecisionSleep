@@ -1,0 +1,39 @@
+PRECISION SLEEP - STAGE 44 FINAL COMPETITION BENCHMARK
+========================================================================
+
+PRIMARY VALIDATION
+Nested leave-one-subject-out cross-validation
+
+Mean subject Macro F1: 0.6902
+Pooled Macro F1: 0.6878
+Accuracy: 0.7690
+Balanced Accuracy: 0.6935
+Pooled N1 F1: 0.3855
+
+PER-CLASS F1
+Wake: 0.7025
+N1: 0.3855
+N2: 0.8976
+N3: 0.7169
+REM: 0.7365
+
+CANONICAL MODEL
+Feature count: 45
+Classifier: Random Forest
+Trees: 150
+Class weighting: balanced
+Decoder: N1-preserving Viterbi
+Transition weight: 0.25
+N1 emission boost: 1.2
+
+DEPLOYMENT SIZE / SPEED
+Model size: 25.446 MB
+Batch per-epoch inference: 0.0151 ms
+Single-epoch mean inference: 13.4995 ms
+Single-epoch P95 inference: 16.5298 ms
+Viterbi decoding (1233 epochs): 38.8670 ms mean
+
+COMPETITION CLAIM GUIDANCE
+Use Stage 40 nested LOSO values for generalization claims.
+Use Stage 43 artifacts as the locked deployment model.
+Stage 44 packages the evidence; it does not alter the model.

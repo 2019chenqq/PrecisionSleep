@@ -1,0 +1,7 @@
+test_subject,selected_transition_weight,selected_n1_emission_boost
+SC400,0.5,1.1
+SC401,0.25,1.75
+SC402,0.75,1.75
+SC403,0.75,1.2
+SC404,0.75,1.35
+SC405,0.25,1.2

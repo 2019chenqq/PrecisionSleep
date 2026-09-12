@@ -1,0 +1,47 @@
+{
+  "stage": 43,
+  "status": "LOCKED_CANONICAL_COMPETITION_CANDIDATE",
+  "model_family": "RandomForestClassifier",
+  "n_estimators": 150,
+  "random_state": 42,
+  "class_weight": "balanced",
+  "feature_count": 45,
+  "feature_source": "original Stage 40 feature set",
+  "normalization": "training-global mean/std",
+  "decoder": "N1-preserving Viterbi",
+  "canonical_transition_weight": 0.25,
+  "canonical_n1_emission_boost": 1.2,
+  "stage_order": [
+    "Wake",
+    "N1",
+    "N2",
+    "N3",
+    "REM"
+  ],
+  "training_subject_count": 6,
+  "training_subjects": [
+    "SC400",
+    "SC401",
+    "SC402",
+    "SC403",
+    "SC404",
+    "SC405"
+  ],
+  "training_epoch_count": 8125,
+  "final_training_time_sec": 2.862071300012758,
+  "primary_validation_source": "Stage 40 nested LOSO",
+  "stage40_nested_loso_mean_macro_f1": 0.6901883450946373,
+  "stage40_nested_loso_pooled_macro_f1": 0.6877909350311118,
+  "stage40_nested_loso_pooled_n1_f1": 0.3855254001391788,
+  "fixed_parameter_loso_mean_macro_f1": 0.6904772899295354,
+  "fixed_parameter_loso_pooled_macro_f1": 0.684439626438458,
+  "fixed_parameter_loso_pooled_n1_f1": 0.3830673143650243,
+  "model_sha256": "009f788efa31884e3969e049ae970ea5c59d1c26e6445a9b016120e5b9c66859",
+  "artifact_files": {
+    "model": "stage43_canonical_random_forest.joblib",
+    "normalization": "stage43_normalization_statistics.csv",
+    "feature_schema": "stage43_feature_schema.csv",
+    "start_probabilities": "stage43_start_probabilities.csv",
+    "transition_matrix": "stage43_transition_matrix.csv"
+  }
+}

@@ -1,0 +1,2 @@
+best_strategy,best_mean_loso_macro_f1,best_pooled_macro_f1,best_pooled_n1_f1,macro_f1_delta_vs_baseline,n1_f1_delta_vs_baseline
+nested_viterbi,0.6820440559274398,0.6728988708566794,0.32539030402629415,0.005833046807172559,-0.030428821251689553
